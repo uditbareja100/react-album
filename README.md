@@ -3,6 +3,7 @@ Albums list React app
 I have created an album manager application in which i can add, update & delete albums 
 & also used dummy api calls for the same
 
+checkout the application here
 
 # Getting Started with Create React App
 
