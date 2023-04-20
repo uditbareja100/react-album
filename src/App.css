@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+ background-color: rgba(113, 232, 226, 0.62);
+ display: flexbox;
 }
 
 .App-logo {
@@ -35,4 +37,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+.list{
+  list-style: none;
+  display: flexbox;
+  justify-content: space-around;
+  width: 75%;
+  margin-left: 20%;
+
+}
+.list-item{
+  padding: 0.4%;
+  border: solid 5px grey;
+  width: 60%;
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 02%;
+}
+.list-buttons{
+  width: 30%;
+}
+.list-button{
+  margin: -1%;
+  background-color: #6382c0;
+   background: #f2711c;
+  height: 35px;
+  width: 18%;
+  color: #fff;
+  border: none;
+ 
+}
+
+.input-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5%;
+}
+.input-button{
+  margin-left: -2%;
+  border: none;
+  margin-top: -0.02%;
+}
+.button{
+  border: none;
+}
+.input-child{
+  width: 18%;
+  
 }
